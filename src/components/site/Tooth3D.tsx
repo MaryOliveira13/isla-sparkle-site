@@ -66,7 +66,7 @@ export function Tooth3D({ modelUrl }: { modelUrl?: string }) {
       style={{ perspective: "1400px" }}
     >
       <div
-        className="relative w-[76vw] max-w-[560px] sm:w-[52vw] lg:w-[36vw]"
+        className="relative -translate-y-[7%] w-[86vw] max-w-[620px] sm:w-[54vw] lg:w-[38vw]"
         style={reduced ? undefined : { animation: "isla-float 9s ease-in-out infinite" }}
       >
         <div
