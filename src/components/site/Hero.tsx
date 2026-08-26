@@ -21,7 +21,7 @@ export function Hero() {
         src={heroMariana.url}
         alt="Dra. Mariana, especialista do Instituto Isla, segurando um modelo de prótese dentária"
         fetchPriority="high"
-        className="absolute inset-0 -z-30 size-full object-cover object-[78%_top] sm:object-[68%_center] lg:object-center"
+        className="absolute inset-0 -z-30 size-full object-cover object-[76%_top] sm:object-right"
       />
 
       {/* Overlay: escurece a esquerda no desktop e a base no mobile */}
@@ -35,7 +35,7 @@ export function Hero() {
       />
 
       <div className="relative mx-auto w-full max-w-[1400px] px-5 sm:px-8">
-        <div className="max-w-[34ch] sm:max-w-[26ch] lg:max-w-[30ch]">
+        <div className="max-w-[34ch] sm:max-w-[30ch] lg:max-w-[38ch]">
           <motion.p
             {...rise(0.04)}
             className="text-[0.6rem] font-semibold uppercase tracking-[0.26em] text-white/65"
