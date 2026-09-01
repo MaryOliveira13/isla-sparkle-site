@@ -24,14 +24,6 @@ export function Header() {
             : "border-white/10 bg-transparent",
         )}
       >
-        {/* Faixa superior */}
-        <div className="mx-auto max-w-[1400px] px-5 py-2 text-center sm:px-8">
-          <p className="text-[0.58rem] font-medium uppercase tracking-[0.28em] text-white/55">
-            Odontologia estética e funcional • Boa Viagem, Recife
-          </p>
-        </div>
-        <div className="h-px w-full bg-white/10" />
-
         {/* Navbar */}
         <nav
           aria-label="Navegação principal"
